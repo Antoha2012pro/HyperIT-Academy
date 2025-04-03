@@ -1,0 +1,119 @@
+.yacht {
+    padding: 80px 0px 0px 0px;
+
+    .container {
+        padding: 0px 15px;     
+
+        @media screen and (min-width: 1246px) {
+          padding: 0px 76px;
+        }
+    }
+
+    &__items {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        scrollbar-color: $bcg-color $black-color;
+        padding: 0px 0px 5px 0px;
+        gap: 16px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__item {
+        width: 100%;
+        padding: 18px 18px 24px 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        background-color: $bcg-color;
+        border-radius: 25px;
+
+        @media screen and (min-width: 728px) {
+            gap: 32px;
+            padding: 16px 16px 32px 16px;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        border-radius: 24px;
+    }
+
+    &__name {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 6px;
+
+        @media screen and (min-width: 728px) {
+            margin: 0px 16px; 
+        }
+    }
+
+    &__title {
+        color: $logo-color;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.2;
+        letter-spacing: -0.72px;
+        text-transform: uppercase;
+    }
+
+    &__subtitle {
+        color: $logo-color;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: 0.36px;
+        text-transform: uppercase;
+        opacity: 0.4;
+    }
+
+    &__descriptions {
+        width: 287px;
+        display: flex;
+        gap: 32px;
+        margin: 0px 6px;
+
+        &-bio {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        &-opis {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        @media screen and (min-width: 728px) {
+            margin: 0px 16px;
+            width: 280px;
+        }
+
+        @media screen and (min-width: 1246px) {
+            width: 290px;
+        }
+    }
+
+    &__text {
+        width: 100%;
+        flex-basis: calc((100% - 40px) / 2);
+        color: $logo-color;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.2;
+        letter-spacing: 0.42px;
+        text-transform: uppercase;
+
+        .yacht__descriptions-opis > & {
+            text-transform: none;
+        }
+    }
+
+
+}
