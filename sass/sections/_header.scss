@@ -60,14 +60,6 @@
     transition: 250ms;
     outline: none;
 
-    &:hover,
-    &:focus {
-      color: $accent-color;
-      .header__icon {
-          transform: scale(1.1);
-      }
-    }
-
     @media screen and (min-width: 728px) {
       font-size: 18px;
       line-height: 1.2;
@@ -75,7 +67,16 @@
     }
 
     &-icon {
-      width: 200px;
+      width: 100px;
+
+      @media screen and (min-width: 728px) {
+        width: 130px;
+      }
+    }
+
+    &:hover,
+    &:focus {
+        transform: scale(1.1);
     }
   }
 

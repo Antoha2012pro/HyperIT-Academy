@@ -67,16 +67,17 @@
     }
 
     &__title {
-        color: #F6F5EF;
+        color: $logo-color;
         font-size: 36px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: -1.62px;
         margin-bottom: 16px;
+        width: 100%;
 
         @media screen and (min-width: 728px) {
             font-size: 60px;
-            width: 287px;
+            width: 300px;
             margin-bottom: 32px;
         }
 
@@ -116,7 +117,7 @@
 
     &__input {
         width: 100%;
-        color: #F6F5EF;
+        color: $logo-color;
         font-size: 14px;
         font-weight: 500;
         line-height: 1.2;
@@ -141,18 +142,9 @@
         &:focus, &:hover {
             border-bottom: 1px solid $accent-color;
         }
-    }
 
-    &__comment {
-
-        @media screen and (min-width: 728px) {
-            margin-bottom: 16px;
-            font-size: 16px;
-            letter-spacing: -0.72px;
-        }
-
-        @media screen and (min-width: 1246px) {
-            margin-bottom: 53px;
+        &::placeholder {
+            color: $accent-color;
         }
     }
 
@@ -181,6 +173,10 @@
 
         &:focus, &:hover {
             border-bottom: 1px solid $accent-color;
+        }
+
+        &::placeholder {
+            color: $accent-color;
         }
     }
 

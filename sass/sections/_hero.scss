@@ -119,17 +119,17 @@
         }
 
         .hero__span {
-            background: var(--linear-green, linear-gradient(92deg, $italic-color 1.03%, $bcg-gray-color 70.31%));
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            // background: var(--linear-green, linear-gradient(92deg, $italic-color 1.03%, $bcg-gray-color 70.31%));
+            // background-clip: text;
+            // -webkit-background-clip: text;
+            // -webkit-text-fill-color: transparent;
             font-style: italic;
         }
     }
 
     &__text {
         width: 100%;
-        color: $logo-color;
+        color: $accent-color;
         font-size: 14px;
         font-weight: 400;
         line-height: 1.4;
@@ -161,7 +161,7 @@
         border-radius: 60px;
         background: $accent-color;
         padding: 14px 28px;
-        color: $logo-color;
+        color: $black-color;
         font-size: 14px;
         font-weight: 700;
         line-height: 1.1;
@@ -181,6 +181,7 @@
 
     &__items-btn > &__item-btn:nth-child(2) > &__button {
         outline: 1px solid $logo-color;
+        color: $logo-color;
         background: transparent;
         transition: 250ms ease-in-out;
 

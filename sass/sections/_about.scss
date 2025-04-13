@@ -129,7 +129,7 @@
     &__btn {
         border-radius: 60px;
         padding: 14px 28px;
-        background: $logo-color;
+        background: $accent-color;
         color: $black-color;
         font-size: 18px;
         font-weight: 700;
@@ -162,7 +162,7 @@
 
         &:hover, &:focus {
             outline: none;
-            background-color: $bcg-color;
+            background-color: $black-color;
             color: $logo-color;
         }
     }

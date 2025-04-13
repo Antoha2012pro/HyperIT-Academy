@@ -60,13 +60,13 @@
         &__span {
             font-size: 24px;
             font-style: italic;
-            font-weight: 500;
+            font-weight: 600;
             line-height: 1.2;
             letter-spacing: -1.08px;
-            background: linear-gradient(92deg, $italic-color 41.03%, $bcg-gray-color 90.31%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            // background: linear-gradient(92deg, $italic-color 41.03%, $bcg-gray-color 90.31%);
+            // background-clip: text;
+            // -webkit-background-clip: text;
+            // -webkit-text-fill-color: transparent;
 
             @media screen and (min-width: 728px) {
                 font-size: 32px;
@@ -78,7 +78,7 @@
 
         &__subtitle {
             width: 100%;
-            color: $logo-color;
+            color: $accent-color;
             font-family: "DM Sans";
             font-size: 14px;
             font-weight: 400;
@@ -113,7 +113,7 @@
 
     &__item {
         border-radius: 24px;
-        background: #1F212D;
+        background: $bcg-color;
         padding: 24px 16px;
         text-align: center;
 
@@ -133,7 +133,7 @@
     }
 
     &__title {
-        color: #F6F5EF;
+        color: $logo-color;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.1;
@@ -148,7 +148,7 @@
     }
 
     &__text {
-        color: $text-color;
+        color: $accent-color;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.4;
