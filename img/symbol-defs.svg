@@ -2,7 +2,7 @@
 <defs>
 <symbol id="icon-arrow-up" viewBox="0 0 32 32">
 <path fill="#6a00ff" style="fill: var(--color1, #6a00ff)" d="M3.765 0h24.471c2.079 0 3.765 1.686 3.765 3.765v24.471c0 2.079-1.686 3.765-3.765 3.765h-24.471c-2.079 0-3.765-1.686-3.765-3.765v-24.471c0-2.079 1.686-3.765 3.765-3.765z"></path>
-<path fill="#6a00ff" style="fill: var(--color2, #6a00ff)" d="M12.235 13.255l3.765-4.314 3.765 4.314h-3.113v9.804h-1.304v-9.804h-3.113z"></path>
+<path fill="#efe3ff" style="fill: var(--color2, #efe3ff)" d="M12.235 13.255l3.765-4.314 3.765 4.314h-3.113v9.804h-1.304v-9.804h-3.113z"></path>
 </symbol>
 <symbol id="icon-facebook" viewBox="0 0 32 32">
 <path fill="none" stroke="#9d51fe" style="stroke: var(--color2, #9d51fe)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8" d="M4.8 0.4h22.4c2.43 0 4.4 1.97 4.4 4.4v22.4c0 2.43-1.97 4.4-4.4 4.4h-22.4c-2.43 0-4.4-1.97-4.4-4.4v-22.4c0-2.43 1.97-4.4 4.4-4.4z"></path>
