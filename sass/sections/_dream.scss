@@ -98,9 +98,13 @@
         position: absolute;
         top: 0px;
         left: 0px;
-        transform: translateY(-983px);
+        transform: translateY(-830px);
         gap: 24px;
         z-index: -4;
+
+        @media screen and (max-width: 300px) {
+            transform: translateY(-700px);
+        }
 
         @media screen and (min-width: 728px) {
             transform: translateY(-1035px);
@@ -114,14 +118,15 @@
 
     &__img {
         width: 100%;
+        border-radius: 20px;
 
         @media screen and (min-width: 728px) {
             
-            .dream__items > .dream__item:nth-child(1) > picture:nth-child(2) > & {
+            .dream__items > .dream__item:nth-child(1) > &:nth-child(2) {
                 width: 308px;
             }  
 
-            .dream__items > .dream__item:nth-child(1) > picture:nth-child(3) > & {
+            .dream__items > .dream__item:nth-child(1) > &:nth-child(3) {
                 width: 260px;
                 position: absolute;
                 top: 863px;
@@ -131,18 +136,18 @@
 
         @media screen and (min-width: 1246px) {
             
-            .dream__items > .dream__item:nth-child(1) > picture:nth-child(1) > & {
+            .dream__items > .dream__item:nth-child(1) > &:nth-child(1) {
                 width: 533px;
                 margin: 0px 0px 0px 340px;
             }  
 
-            .dream__items > .dream__item:nth-child(1) > picture:nth-child(2) > & {
+            .dream__items > .dream__item:nth-child(1) > &:nth-child(2) {
                 position: absolute;
                 top: 253px;
                 left: 0px;
             }  
 
-            .dream__items > .dream__item:nth-child(1) > picture:nth-child(3) > & {
+            .dream__items > .dream__item:nth-child(1) > &:nth-child(3) {
                 width: 260px;
                 position: absolute;
                 top: 505px;
@@ -150,7 +155,7 @@
             }
         }
 
-        .dream__items > .dream__item:nth-child(1) > picture:nth-child(3) > & {
+        .dream__items > .dream__item:nth-child(1) > &:nth-child(3) {
             margin: 0px 0px 0px auto;
             width: 260px;
         }
