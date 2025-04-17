@@ -27,6 +27,12 @@
     background-color: $bcg-color;
     transform: translate(-50%, -50%) scale(1);
     transition: 250ms;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    
+    &::-webkit-scrollbar {
+      display: none; /* Chrome, Safari */
+    }
 
 
     @media screen and (max-width: 362px) {

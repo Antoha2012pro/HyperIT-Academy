@@ -166,7 +166,7 @@
       </ul>
     </div>
   </section>
-  <section class="yacht" id="yacht">
+  <!-- <section class="yacht" id="yacht">
     <div class="container">
       <h2 class="yacht__main-title">Цікаве та зрозуміле програмування доступне всім дітям:</h2>
       <ul class="yacht__items">
@@ -454,8 +454,8 @@
         </li>
       </ul>
     </div>
-  </section>
-  <section class="about">
+  </section> -->
+  <!-- <section class="about">
     <div class="container">
       <ul class="about__list">
         <li class="about__item">
@@ -514,8 +514,7 @@
         </li>
       </ul>
     </div>
-  </section>
-  <!--Rent-->
+  </section> -->
   <section class="rent">
     <div class="container">
       <div class="title__box">
@@ -537,18 +536,18 @@
         </picture>
       </div>
       <form class="rent__form" name="contact-form">
-        <input class="rent__input" type="text" name="username" id="username" placeholder="Full Name"
+        <input class="rent__input" type="text" name="username" id="username" placeholder="Повне ім'я"
           title="The name must contain at least three Latin letters" required />
-        <input class="rent__input" type="email" name="user-email" id="email" placeholder="Email" required />
-        <input class="rent__input" type="tel" name="user-tel" id="tel" placeholder="Phone number"
+        <input class="rent__input" type="email" name="user-email" id="email" placeholder="Электронна пошта" required />
+        <input class="rent__input" type="tel" name="user-tel" id="tel" placeholder="Телефон"
           pattern="\+?[0-9\s\-\(\)]{7,}" required />
-        <textarea class="rent__textarea" name="user-comment" id="comment" placeholder="Comment"></textarea>
+        <textarea class="rent__textarea" name="user-comment" id="comment" placeholder="Коментарій"></textarea>
         <button type="submit" class="rent__button" data-modal-open>
-          Send<svg class="rent__button-icon">
+          Записатись<svg class="rent__button-icon">
             <use href="./img/symbol-defs.svg#icon-arrow-left"></use>
           </svg>
         </button>
-      <!-- </form> -->
+      </form>
     </div>
   </section>
   <section class="team" id="team">
@@ -556,29 +555,18 @@
       <ul class="team__info">
         <li class="team__info__item">
           <h2 class="team__info__title">
-            <span class="team__info__span">Yacht Adventures</span> take pride in
-            providing the best possible service and experience to our customers
+            <span class="team__info__span">Наша</span> навчальна програма довела ефективність на практиці.
           </h2>
         </li>
         <li class="team__info__item">
           <p class="team__info__subtitle">
-            Our customers have enjoyed unforgettable moments on our yachts. Don't
-            just take our word for it - read on to find out what they have to say
-            about their journey with us.
+            Ось, що кажуть батьки про навчання в HyperIT:
           </p>
         </li>
       </ul>
       <ul class="team__list">
         <li class="team__item">
-          <picture>
-            <source srcset="./img/desktop/john-desktop@1x.webp 1x, ./img/desktop/john-desktop@2x.webp 2x"
-              media="(min-width: 1246px)">
-            <source srcset="./img/tablet/john-tablet@1x.webp 1x, ./img/tablet/john-tablet@2x.webp 2x"
-              media="(min-width: 728px)">
-            <source srcset="./img/mobile/john-mobile@1x.webp 1x, ./img/mobile/john-mobile@2x.webp 2x"
-              media="(max-width: 727px)">
-            <img src="./img/john.png" alt="John" class="team__img" />
-          </picture>
+          <img src="./img/quote-purple.png" alt="John" class="team__img" />
           <h2 class="team__title">John Wax</h2>
           <p class="team__text">
             I rented the Lagoon 620 with my family for a week-long vacation and it
@@ -587,15 +575,7 @@
           </p>
         </li>
         <li class="team__item">
-          <picture>
-            <source srcset="./img/desktop/victoria-desktop@1x.webp 1x, ./img/desktop/victoria-desktop@2x.webp 2x"
-              media="(min-width: 1246px)">
-            <source srcset="./img/tablet/viktoria-tablet@1x.webp 1x, ./img/tablet/viktoria-tablet@2x.webp 2x"
-              media="(min-width: 728px)">
-            <source srcset="./img/mobile/victoria-mobile@1x.webp 1x, ./img/mobile/victoria-mobile@2x.webp 2x"
-              media="(max-width: 727px)">
-            <img src="./img/victoria.png alt=" alt="Victoria" class="team__img" />
-          </picture>
+          <img src="./img/quote-purple.png" alt="John" class="team__img" />
           <h2 class="team__title">Victoria Romashenko</h2>
           <p class="team__text">
             The Sunseeker Manhattan 66 was the perfect choice for our romantic
@@ -604,15 +584,7 @@
           </p>
         </li>
         <li class="team__item">
-          <picture>
-            <source srcset="./img/desktop/igor-desktop@1x.webp 1x, ./img/desktop/igor-desktop@2x.webp 2x"
-              media="(min-width: 1246px)">
-            <source srcset="./img/tablet/igor-tablet@1x.webp 1x, ./img/tablet/igor-tablet@2x.webp 2x"
-              media="(min-width: 728px)">
-            <source srcset="./img/mobile/igor-mobile@1x.webp 1x, ./img/mobile/igor-mobile@2x.webp 2x"
-              media="(max-width: 727px)">
-            <img src="./img/igor.png" alt="Ihor" class="team__img" />
-          </picture>
+          <img src="./img/quote-purple.png" alt="John" class="team__img" />
           <h2 class="team__title">Ihor Trachuk</h2>
           <p class="team__text">
             The Azimut 80 was the most luxurious yacht I've ever been on. The
@@ -626,13 +598,13 @@
 
   <section class="scroll">
     <div class="container">
-      <button id="scroll-btn" class="scroll__btn">
+      <!-- <button id="scroll-btn" class="scroll__btn"> -->
         <a href="#header" class="scroll__link">
           <svg class="scroll__svg">
             <use href="./img/symbol-defs.svg#icon-arrow-up"></use>
           </svg>
         </a>
-      </button>
+      <!-- </button> -->
     </div>
   </section>
   <footer class="footer">
@@ -657,7 +629,7 @@
 
       <div class="footer__box">
         <p class="footer__box-text">
-          We in social
+          Ми у соц. мережах
         </p>
 
         <ul class="footer__box-list">
@@ -740,9 +712,19 @@
           <img src="./img/cardyacht.png" alt="yacht" class="modal__yacht" />
         </picture>
         <h3 class="modal__title">Реєстрування</h3>
-        <p class="modal__text">
-          *інструкція як зареєструватися*
-        </p>
+        <form class="rent__form" name="contact-form">
+          <input class="rent__input" type="text" name="username" id="username" placeholder="Повне ім'я"
+            title="The name must contain at least three Latin letters" required />
+          <input class="rent__input" type="email" name="user-email" id="email" placeholder="Электронна пошта" required />
+          <input class="rent__input" type="tel" name="user-tel" id="tel" placeholder="Телефон"
+            pattern="\+?[0-9\s\-\(\)]{7,}" required />
+          <textarea class="rent__textarea" name="user-comment" id="comment" placeholder="Коментарій"></textarea>
+          <button type="submit" class="rent__button" data-modal-open>
+            Записатись<svg class="rent__button-icon">
+              <use href="./img/symbol-defs.svg#icon-arrow-left"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </div>
   </section>

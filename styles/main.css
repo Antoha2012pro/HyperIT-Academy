@@ -1073,6 +1073,12 @@ body {
     width: 436px;
   }
 }
+.about__form {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  scrollbar-color: #dbc0ff #efe3ff;
+}
 .about__btn {
   border-radius: 60px;
   padding: 14px 28px;
@@ -1311,8 +1317,7 @@ body {
 }
 @media screen and (min-width: 728px) {
   .rent__button {
-    width: 132px;
-    height: 48px;
+    width: 170px;
     font-size: 18px;
     margin: auto 0px 0px 0px;
   }
@@ -1388,9 +1393,8 @@ body {
 .team__info__subtitle {
   width: 100%;
   color: #9d51fe;
-  font-family: "DM Sans";
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 500;
   line-height: 1.4;
   letter-spacing: -0.28px;
 }
@@ -1428,7 +1432,7 @@ body {
   }
 }
 .team__img {
-  width: 48px;
+  width: 50px;
   margin: 0px auto;
 }
 .team__title {
@@ -1704,7 +1708,7 @@ body {
     padding: 64px 0px 0px 0px;
   }
 }
-.scroll__btn {
+.scroll__link {
   outline: none;
   width: 44px;
   height: 44px;
@@ -1714,11 +1718,11 @@ body {
   display: block;
   transition: 250ms;
 }
-.scroll__btn:hover, .scroll__btn:focus {
+.scroll__link:hover, .scroll__link:focus {
   outline: none;
 }
 @media screen and (min-width: 728px) {
-  .scroll__btn {
+  .scroll__link {
     width: 68px;
     height: 68px;
   }
@@ -1907,6 +1911,11 @@ body {
   background-color: #dbc0ff;
   transform: translate(-50%, -50%) scale(1);
   transition: 250ms;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+.modal::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }
 @media screen and (max-width: 362px) {
   .modal {

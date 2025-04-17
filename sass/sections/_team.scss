@@ -37,7 +37,6 @@
                 }
             }
 
-
         }
 
         &__title {
@@ -79,9 +78,8 @@
         &__subtitle {
             width: 100%;
             color: $accent-color;
-            font-family: "DM Sans";
-            font-size: 14px;
-            font-weight: 400;
+            font-size: 24px;
+            font-weight: 500;
             line-height: 1.4;
             letter-spacing: -0.28px;
 
@@ -128,7 +126,7 @@
 
 
     &__img {
-        width: 48px;
+        width: 50px;
         margin: 0px auto;
     }
 

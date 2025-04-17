@@ -125,6 +125,13 @@
         }
     }
 
+    &__form {
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        scrollbar-color: $bcg-color $black-color;
+    }
+
 
     &__btn {
         border-radius: 60px;
